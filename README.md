@@ -12,6 +12,8 @@ In this project I have used the following elements.
 4, A Goals Page, which lists the goals for me, and button on the top Right that goes to 5.
 5, If you went to the info page direct you'll see a short info text and two pictures of me.
 
+Also updated via the SourceTree to GitHub method.
+
 Thats it for week 1.
 
 I would love to know how to:
