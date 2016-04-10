@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fUd-lR-OLJ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="AyE-Uf-EZL">
+            <objects>
+                <viewController id="epk-j1-ohX" customClass="ViewController" customModule="Week1Assignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XYc-Z6-lI4"/>
+                        <viewControllerLayoutGuide type="bottom" id="PlZ-Sl-yoF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KRo-vU-FSo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aYM-RJ-Uwj">
+                                <rect key="frame" x="62" y="162" width="251" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HE-Vf-ve3">
+                                <rect key="frame" x="168" y="278" width="38" height="30"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <segue destination="7ej-So-vft" kind="show" id="1LK-Oi-vJG"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Paulo Tam - Assignment Week 1" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rg7-lG-nHa">
+                                <rect key="frame" x="67" y="96" width="240" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ooO-um-bXD">
+                                <rect key="frame" x="62" y="211" width="251" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gds-1f-13f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qf1-VW-aXK" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="312.5" y="261.5"/>
+        </scene>
+        <!--Whats Up?-->
+        <scene sceneID="RSF-BW-pzL">
+            <objects>
+                <viewController id="7ej-So-vft" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f44-6k-JjN"/>
+                        <viewControllerLayoutGuide type="bottom" id="4fk-cz-oUI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p17-Rs-z4u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xi-fO-jxx">
+                                <rect key="frame" x="268" y="404" width="39" height="30"/>
+                                <state key="normal" title="Goals"/>
+                                <connections>
+                                    <segue destination="MJW-WF-pp2" kind="show" id="w87-hb-JvR"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="general_assembly.png" translatesAutoresizingMaskIntoConstraints="NO" id="6yR-ao-8sW">
+                                <rect key="frame" x="67" y="339" width="240" height="57"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome to Paulo's First App" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a5K-uz-v8e">
+                                <rect key="frame" x="67" y="97" width="240" height="31"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paulo.png" translatesAutoresizingMaskIntoConstraints="NO" id="fFo-kC-8E6">
+                                <rect key="frame" x="75" y="141" width="224" height="188"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8W-CT-PjN">
+                                <rect key="frame" x="67" y="404" width="30" height="30"/>
+                                <state key="normal" title="Info"/>
+                                <connections>
+                                    <segue destination="x9P-xL-wkO" kind="showDetail" action="showViewController:sender:" id="mUi-VE-lrI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Whats Up?" id="OMc-qM-9e6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jIk-Ol-5Jo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775.5" y="261.5"/>
+        </scene>
+        <!--My Goals-->
+        <scene sceneID="3GP-Rb-Ggy">
+            <objects>
+                <viewController id="MJW-WF-pp2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KO1-19-fjA"/>
+                        <viewControllerLayoutGuide type="bottom" id="FFn-48-6xp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wwc-Ow-xh0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PAULO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lgh-sv-VHA">
+                                <rect key="frame" x="70" y="328" width="247" height="252"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7O-GT-tjD">
+                                <rect key="frame" x="52" y="129" width="271" height="183"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Paulo's goals are to be able to build an app from start to finish and have it published in the app store.... now just to think up some ideas of apps. In Red and BOLD!</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.092125669194269122" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02I-OG-LpF">
+                                <rect key="frame" x="70" y="72" width="240" height="55"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="GOALS!!!!">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="My Goals" id="DcP-aN-IY2">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="Qzy-in-n3y">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ydv-ql-AoX">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Info"/>
+                                <connections>
+                                    <segue destination="x9P-xL-wkO" kind="show" id="Qhl-Ub-Akn"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0m8-68-Yko" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386.5" y="574.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VIw-l2-BUg">
+            <objects>
+                <viewController id="x9P-xL-wkO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o2L-kY-h8J"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wv2-ha-UEw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1gB-GD-f3t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="INFO!!!!" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXj-kx-Wlt">
+                                <rect key="frame" x="62" y="84" width="240" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView contentMode="scaleAspectFit" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1782.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Wa6-Ce-c23">
+                                <rect key="frame" x="27" y="273" width="159" height="211"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1756.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Y7m-4N-xvt">
+                                <rect key="frame" x="163" y="273" width="219" height="211"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRM-BW-Upo">
+                                <rect key="frame" x="67" y="132" width="240" height="116.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Paulo is a Front End Web Developer that has been working on websites and wants to expand into app building. You can see here he takes the train, and you can also see he listens to his beats headphones.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aVY-Ut-w9O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1905.5" y="-204.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pc7-za-CHS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fUd-lR-OLJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3cs-IW-xe9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="epk-j1-ohX" kind="relationship" relationship="rootViewController" id="6wH-5n-e7u"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l6d-1d-o3u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-192.5" y="261.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_1756.jpg" width="960" height="1280"/>
+        <image name="IMG_1782.jpg" width="960" height="1280"/>
+        <image name="PAULO2.png" width="956" height="956"/>
+        <image name="general_assembly.png" width="496" height="106"/>
+        <image name="paulo.png" width="1898" height="1898"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Qhl-Ub-Akn"/>
+    </inferredMetricsTieBreakers>
+</document>
